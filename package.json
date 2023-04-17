@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "rollup": "^3.20.4",
+    "typescript": "^5.0.4"
+  },
+  "name": "jobber-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
