@@ -1,3 +1,3 @@
 export const DATA = {
-    a: 1
-}
+  a: 2,
+};
