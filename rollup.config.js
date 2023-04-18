@@ -1,5 +1,5 @@
 import typescript from "@rollup/plugin-typescript";
-import USERSCRIPT_HEADER from "./src/userscript_header.js";
+import USERSCRIPT_HEADER from "./src/header.js";
 
 export default {
     input: 'src/main.ts',
