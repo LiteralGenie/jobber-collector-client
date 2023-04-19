@@ -1,3 +1,3 @@
-export const DATA = {
-  a: 2,
-};
+export async function sleep(timeMs: number): Promise<void> {
+    await new Promise((r) => setTimeout(r, timeMs))
+}
