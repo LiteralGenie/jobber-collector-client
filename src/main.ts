@@ -45,7 +45,7 @@ function processPage(): IndeedPostRaw | null {
         console.error("No title found")
         return null
     }
-    const title = titleEl.textContent as string
+    const title = titleEl.textContent!.replace(/ - job post$/, "")
 
     const companyEl = select("[data-company-name]")
     if (!companyEl) {
